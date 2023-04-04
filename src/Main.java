@@ -6,7 +6,7 @@ public class Main {
         int totalAmount;    //Итоговый баланс
         int gift;           //Количество бонусов для начисления
 
-        if (payment >= 1000){
+        if (payment > 1000){
             gift = payment / 100;
             totalAmount = balance + payment + gift;
             System.out.println("Ваш бонус составил: " + gift);
